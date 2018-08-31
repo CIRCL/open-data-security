@@ -21,6 +21,10 @@
       "type": "string",
       "$comment": "a comprehensive and concise title of the dataset"
     },
+    "subtitle": {
+      "type": "string",
+      "$comment": "an extended title of the dataset"
+    },
     "description": {
       "type": "string",
       "$comment": "an exhaustive description of the dataset including methods of collection, extraction or analysis"
