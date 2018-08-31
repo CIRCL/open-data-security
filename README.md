@@ -11,6 +11,10 @@ as open data by security researchers, security vendors or CSIRTs. The aim is to 
 
 * [a honeypot dataset](sample/sample.json)
 
+# How to use it?
+
+- Add your JSON file in the directory where the dataset is published and the filename must be named `meta.json`.
+
 # License
 
 The work for the open-data-security is released by [CIRCL](https://www.circl.lu/) as CC0 1.0 Universal (CC0 1.0).
