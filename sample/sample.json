@@ -1,7 +1,8 @@
 {
   "human-validated": false,
   "machine-validated": true,
-  "title": "Extracted DNS queries from a set of distributed honeypots",
+  "title": "DNS queries",
+  "subtitle": "Extracted DNS queries from a set of distributed honeypots",
   "description": "DNS queries extracted from the network captures of a distributed set of honeypots.",
   "frequency": "daily",
   "time-precision": "seconds",
