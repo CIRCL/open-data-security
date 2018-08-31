@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "title": "Validator for open-data-security format",
-  "id": "https://www.github.com/CIRCL/open-data-security/schema.json",
+  "id": "https://github.com/CIRCL/open-data-security/blob/master/schema.json",
   "type": "object",
   "additionalProperties": false,
   "properties": {
