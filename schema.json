@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Validator for open-data-security format",
+  "id": "https://www.github.com/CIRCL/open-data-security/schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "array",
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "$comment": "tag SHOULD come from a MISP taxonomy namespace"
+    },
+    "title": {
+      "type": "string",
+      "$comment": "a comprehensive and concise title of the dataset"
+    },
+    "description": {
+      "type": "string",
+      "$comment": "an exhaustive description of the dataset including methods of collection, extraction or analysis"
+    },
+    "time-precision": {
+      "type": "string",
+      "$comment": "time-precision MUST be expressed in years, months, days, hours, minutes or seconds to describe the precision of the time expressed"
+    },
+    "frequency": {
+      "type": "string",
+      "$comment": "frequency of the dataset generation which MUST be expressed in yearly, monthly, daily, hourly"
+    },
+    "producer": {
+      "type": "string",
+      "$comment": "producer MUST be expressed as an URI to reference the original producer of the dataset"
+    },
+    "license": {
+      "type": "string",
+      "$comment": "license MUST be expressed in SPDX format to describe under which license the dataset is distributed"
+    },
+    "human-validated": {
+      "type": "boolean",
+      "$comment": "human-validated describes if the dataset has been manually validated"
+    },
+    "machine-validated": {
+      "type": "boolean",
+      "$comment": "machine-validated describes if the dataset has been automatically validated"
+    }
+  },
+  "required": [
+    "title",
+    "license"
+  ]
+}

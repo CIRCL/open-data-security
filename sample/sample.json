@@ -1,0 +1,19 @@
+{
+  "human-validated": false,
+  "machine-validated": true,
+  "title": "Extracted DNS queries from a set of distributed honeypots",
+  "description": "DNS queries extracted from the network captures of a distributed set of honeypots.",
+  "frequency": "daily",
+  "time-precision": "seconds",
+  "source": [
+    "honeybot-1234",
+    "honeybot-1235"
+  ],
+  "license": "CC-BY-4.0",
+  "producer": "https://www.circl.lu/",
+  "tags": [
+    "honeypot-basic:interaction-level=\"none\"",
+    "honeypot-basic:data-capture=\"network-capture\"",
+    "tlp:white"
+  ]
+}
