@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "version": {
-      "type": "integer"
+      "type": "number"
     },
     "source": {
       "type": "array",
@@ -35,7 +35,7 @@
     },
     "frequency": {
       "type": "string",
-      "$comment": "frequency of the dataset generation which MUST be expressed in yearly, monthly, daily, hourly"
+      "$comment": "frequency of the dataset generation which MUST be expressed in yearly, monthly, daily, hourly, continuous"
     },
     "producer": {
       "type": "string",
