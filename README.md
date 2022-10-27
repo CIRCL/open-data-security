@@ -12,11 +12,11 @@ as open data by security researchers, security vendors or CSIRTs. The aim is to 
 |`title`|yes|A comprehensive and concise `title` of the dataset.|
 |`subtitle`|no|An extended title of the dataset.|
 |`description`|no|An exhaustive `description` of the dataset including methods of collection, extraction or analysis.|
-|`license`|yes|`license` MUST be expressed in SPDX format to describe under which license the dataset is distributed.|
-|`tags`|no|`tag` SHOULD come from a MISP taxonomy namespace. Free `tags` are permitted.|
-|`source`|no||
+|`license`|yes|`license` MUST be expressed in [SPDX format](https://spdx.github.io/spdx-spec/SPDX-license-list/) to describe under which license the dataset is distributed.|
+|`tags`|no|`tag` is an array of tags. The `tag` SHOULD come from a [MISP taxonomy namespace](https://www.misp-project.org/taxonomies.html). Free `tags` are permitted but their use is discouraged.|
+|`source`|no|`source` is an array of value. A source is a free text describing the origin of the dataset. This can be an url but also a free text describing the source.|
 |`time-precision`|no|`time-precision` MUST be expressed in years, months, days, hours, minutes or seconds to describe the precision of the time expressed.|
-|`frequency`|no|`frequency` of the dataset generation which MUST be expressed in yearly, monthly, daily, hourly, continuous.|
+|`frequency`|no|`frequency` of the dataset generation which MUST be expressed in yearly, monthly, daily, hourly, continuous. Continuous is used for streamed dataset.|
 |`producer`|no|`producer` MUST be expressed as an URI to reference the original producer of the dataset.|
 |`human-validated`|no|`human-validated` describes if the dataset has been manually validated.|
 |`machine-validated`|no|`machine-validated` describes if the dataset has been automatically validated.|
