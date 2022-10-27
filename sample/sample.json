@@ -15,6 +15,6 @@
   "tags": [
     "honeypot-basic:interaction-level=\"none\"",
     "honeypot-basic:data-capture=\"network-capture\"",
-    "tlp:white"
+    "tlp:clear"
   ]
 }
